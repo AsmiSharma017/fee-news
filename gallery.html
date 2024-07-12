@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galllery</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        .nav{
+    background-color:rgb(59, 91, 121) ;
+    height: 50px;
+            width:1520px;}
+    
+
+        .f{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+header .material-symbols-outlined {
+            font-size: 40px;
+            color: #eae9e7;
+            margin-right: 20px;
+        }
+footer{
+    background-color:#243b50 ;
+    height: 70px;
+            width:1500px;
+            color: aliceblue;
+
+            font-family: 'Times New Roman', Times, serif;
+            display: flex;
+            position: fixed;
+    bottom: 0;
+    left: 0;
+    
+}
+header{
+    background-color: #3b5b79;
+    color:aliceblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.news{
+    background-color: #243b50;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    flex-direction: column;
+}
+
+.news img{
+    
+
+    margin-bottom: 10px;
+}
+body{
+    background-color: aliceblue;
+    flex-direction: column;
+}
+.gallery{
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <span class="material-symbols-outlined">newspaper</span>
+        <h1>This Week's Top News</h1>
+    </header>
+    <div class="gallery">
+        <div class="news">
+            <img src="https://static.toiimg.com/thumb/msid-111690467,imgsize-12244,width-400,resizemode-4/111690467.jpg" width="300px" height="200px">
+            <p>Prachanda received 63 votes in the 275-member House of Representatives. Nepal Prime Minister Pushpa Kamal Dahal 'Prachanda' lost a vote of confidence in Parliament on July 12 after the Communist Party of Nepal-Unified Marxist Leninist (CPN-UML) withdrew its support for his government.</p>
+        </div>
+        <div class="news">
+            <img src="data:image/jpeg;base64,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" width="300px" height="200px">
+            <p>Loco!
+
+                On the July 11 broadcast of Mnet’s “M Countdown,” the candidates for first place were BABYMONSTER’s “FOREVER” and BTS’s Jimin “Smeraldo Garden Marching Band.” BTS’s Jimin ultimately took the win with a total of 7,574 points.</p>
+        </div>
+        <div class="news">
+            <img src="https://static.toiimg.com/thumb/msid-111085267,imgsize-122860,width-400,resizemode-4/111085267.jpg" width="300px" height="200px">
+            <p>Prospective candidates can expect the CAT 2024 notification to be released tentatively on July 30, with the registration process commencing in the first week of August via the official CAT 2024 website. Candidates must complete their CAT 2024 registration by September 21, 2024, to secure a slot for the exam.</p>
+        </div>
+        <div class="news">
+            <img src="https://static.toiimg.com/thumb/msid-111686791,imgsize-1513141,width-400,resizemode-4/111686791.jpg" width="300px" height="200px">
+            <p>Indian techie Siddhant Vitthal Patil, who is presumed dead after drowning in the Glacier National Park in the United States, had texted his mother from the park hours before the tragedy, his family said on Friday.
+
+                "Last Friday, Siddhant called up his mother Priti from the Park and told her that he has been in the Park for three days with six other Indian friends and is enjoying the trip," his maternal uncle Pritesh Chaudhari told</p>
+        </div>
+        <div class="news">
+            <img src="http://www.awakin.org/pics/weekly/2688.jpg" width="300px" height="200px">
+            <p>Ecological horticulturist Rebecca McMackin has found success increasing biodiversity in the most unlikely of places - the parched concrete of derelict shipping piers in New York City.
+
+                "Most gardeners try to maintain these clean, sterile environments that are the exact opposite of what wildlife wants. The more we can stop being tidy the more wildness we can bring into our gardens and landscapes, the better habitat we provide" says Rebecca. "All it takes is a pot on your stoop to make a difference". Watch her powerful TED Talk </p>
+        </div>
+        <div class="news">
+            <img src="https://img.theweek.in/content/dam/week/week/news/india/images/2024/7/11/rain%20news%20monsoon%20pti.jpg" width="300px" height="200px">
+        <p>Due to the shift of the monsoon trough line towards the Himalayas from Thursday, rainfall activities are likely to reduce in Rajasthan, the Meteorological Department said. According to the Meteorological Center Jaipur, light to moderate rain was also recorded at some places in the state.
+            Meanwhile, 22 lives have been lost in rain-related incidents in Himachal Pradesh and the state has suffered a loss of Rs 172 crore in the two weeks since the monsoon onset on June 27</p>
+        </div>
+        <div class="news">
+            <img src="https://img.theweek.in/content/dam/week/week/news/india/images/2024/7/11/Pinarayi%20Vijayan%20at%20International%20GenAI%20Conclave%20Kochi%20ANI.png" width="300px" height="200px">
+        <p>Tech giant IBM and the Kerala state government came together to host India’s first GenAI conclave at the Grand Hyatt in Kochi on July 11-12. Chief Minister Pinarayi Vijayan inaugurated the event and said that the state was gearing up to roll out AI education from the school level.
+            Vijayan said that the government recognised the possibilities of Industry 4.0 and was hopeful of harnessing it. Industry 4.0 is generally defined as “the integration of intelligent digital technologies into manufacturing and industrial processes.” The intelligent digital technologies referred to include industrial Internet of Things networks, Artificial Intelligence, Big Data, robotics and automation among other things.</p>
+        </div>
+        <div class="news">
+           
+            <img src="https://c.ndtvimg.com/2024-07/m0ufisoo_hina-khan-_625x300_06_July_24.jpeg" width="300px" height="200px">
+        <p>TV star Hina Khan, who is battling breast cancer, has been documenting her health journey - one post at a time. On Saturday, the actress shared a picture of her scar and she wrote in her new Instagram entry, "What do you see in this picture? The scars on my body or the hope in my eyes? The scars are mine, I embrace them with love because they're the first sign of the progress I deserve. The hope in my eyes is the reflection of my soul, I can almost see the light at the end of the tunnel. I am manifesting my healing. And I am praying for yours too." Hina added the hashtags #SacrredNotScared and #DaddysStrongGirl to the post.</p>
+        </div>
+        <div class="news">
+            <img src="https://www.livemint.com/lm-img/img/2024/07/12/600x338/PTI06-10-2023-000237A-0_1686474276187_1720764986027.jpg" width="300px" height="200px">
+        <p>The India Meteorological Department has issued an orange alert for Mumbai with heavy to very heavy rains in isolated areas. 
+
+            The IMD has also issued an orange alert for Thane, Palghar, Raigad, Ratnagiri, and Sindhudurg districts in Maharashtra's Konkan region. Heavy rains lashed Mumbai city today morning causing waterlogging in several areas of the city including, APMC Market, Turbhe Mafco, Navi Mumbai and King's Circle.
+            
+            The city authorities issued a ‘high tide’ warning of 3.87 metre at 4:06 pm today. The maximum and minimum temperatures will likely settle around 29 and 24 degrees Celsius, respectively.</p>
+        </div>
+        <div class="news">
+            <img src="https://images.hindustantimes.com/img/2024/07/12/550x309/anant-weds-radhika-mumbai-ambani-wedding_1720791423663_1720791424071.jpg" width="300px" height="200px">
+        <p>Anant Ambani is the talk of the town, or rather, the internet! The keyword “Anant Ambani Wedding” is currently the third most searched term on Google’s daily search trends in India on Friday, July 12. Back in March, when the couple’s pre-wedding festivities kicked off in Jamnagar, Gujarat, searches for the wedding skyrocketed. Now, with the wedding happening today, July 12, user interest is expected to hit another peak.</p>
+        </div>
+    </div>
+        <footer>
+        
+   <pre>                                                                                       <a class="f" href="https://web.whatsapp.com/">Whatsapp</a>        <a class="f" href="https://mail.google.com/mail/u/0/#inbox">Mail</a>              <a   class="f" href="https://telegram.org/">Telegram</a>           
+                                                                                                                                                                                                                              <div class="f">Contact Us|7888559569</div></pre>
+    
+
+    </footer>
+    
+</body>
+</html>
